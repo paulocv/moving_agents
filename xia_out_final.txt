@@ -1,0 +1,7 @@
+First attempt to reproduce Xia et. al. 2009 results. 
+Data corresponds to figure 2, with \rho = 1 and \beta = 0.5
+-----
+reinfection	0.515855	0.003872
+no reinfection	0.165092	0.002949
+no reinf., pj=1	0.220566	0.003940
+0.220566	0.003940

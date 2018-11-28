@@ -1,0 +1,17 @@
+Output from 'flat_sir_simulate.py sim_inputs/test_input_flat.txt'.
+2017-11-06 22:53:54.195987
+
+> num_agents = 130
+> num_steps = 15
+> num_simulations = 10
+> grid_width = 15
+> grid_height = 15
+> step_size = 1.
+> pj = 0.001
+> interaction_radius = 2.
+> beta = 0.01
+> mu = 0.7
+> initial_infected = 0.10
+> transient_fraction = 0.6
+-----
+17	19	14	18	17	16	17	15	17	17

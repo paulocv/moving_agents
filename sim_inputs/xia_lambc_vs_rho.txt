@@ -1,0 +1,25 @@
+# MULTIPLE-INPUT FILE
+# To be used in sis_flat_paramvar.py
+
+# Variable parameters
+> vary_parameters = num_agents, beta
+
+# General simulation parameters.
+> num_agents = [1600 + 200*i for i in range(11)]
+> num_steps = 150
+> num_simulations = 4
+
+# Landscape properties.
+> grid_width = 40
+> grid_height = 40
+
+# Agent parameters.
+> step_size = 0.1
+> pj = 0.000  # Probability of a random jump
+> interaction_radius = 1.0
+> beta = [0.10 + 0.02*i for i in range(21)]
+> mu = 1.0
+
+# Model details
+> initial_infected = 0.05
+> transient_fraction = 0.8

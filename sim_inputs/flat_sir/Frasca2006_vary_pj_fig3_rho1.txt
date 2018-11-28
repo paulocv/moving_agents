@@ -1,0 +1,25 @@
+# MULTIPLE-INPUT FILE
+# To be used in sir_flat_paramvar.py
+
+# Variable parameters
+> vary_parameters = pj
+
+# General simulation parameters.
+> num_agents = 200
+# > num_steps = 10  # Not used
+> num_simulations = 20
+
+# Landscape properties.
+> grid_width = 14.14
+> grid_height = 14.14
+
+# Agent parameters.
+> step_size = 0.03
+> pj = [i/20. for i in range(21)]  # Probability of a random jump
+> interaction_radius = 1.0
+> beta = 0.05
+> mu = 0.06667
+
+# Model details
+> initial_infected = 0.02
+# > transient_fraction = 0.6  # Not used

@@ -1,0 +1,29 @@
+# MULTIPLE-INPUT FILE
+# To be used in flat_paramvar.py
+
+# General details
+> model = flat_mtrumor
+> file_prefix = rho_vs_delta
+
+# Variable parameters
+> vary_parameters = num_agents, step_size
+
+# General simulation parameters.
+> num_agents = [n for n in range(800, 3600, 400)]
+# > num_steps = 10  # Not used
+> num_simulations = 15
+
+# Landscape properties.
+> grid_width = 40
+> grid_height = 40
+
+# Agent parameters.
+> step_size = [2.**(n-9) for n in range(13)]  # Exponential variation
+> pj = 0.00  # Probability of a random jump
+> interaction_radius = 1.0
+> beta = 0.4
+> mu = 0.5
+
+# Model details
+> initial_infected = 0.002
+# > transient_fraction = 0.6  # Not used

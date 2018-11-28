@@ -1,0 +1,16 @@
+> model = flat_mtrumor_radvar
+> file_prefix = poisson_std
+> vary_parameters = radius_std, beta
+> num_agents = 1000
+> num_simulations = 30
+> grid_width = 30
+> grid_height = 30
+> step_size = 0.5
+> pj = 0.01
+> beta = 1.0
+> mu = 0.5
+> radius_dist = poisson
+> radius_mean = 1.0
+> interaction_radius = 1.0
+> radius_std = 0.5
+> initial_infected = 0.005

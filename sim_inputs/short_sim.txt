@@ -1,0 +1,19 @@
+# General simulation parameters.
+> num_agents = 10
+> num_steps = 15
+> num_simulations = 3
+
+# Landscape properties.
+> grid_width = 20
+> grid_height = 20
+
+# Agent parameters.
+> step_size = 1.
+> pj = 0.001  # Probability of a random jump
+> interaction_radius = 2.
+> beta = 0.9
+> mu = 0.5
+
+# Model details
+> initial_infected = 0.5
+> transient_fraction = 0.6

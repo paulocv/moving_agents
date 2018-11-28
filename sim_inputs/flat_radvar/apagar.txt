@@ -1,0 +1,35 @@
+# MULTIPLE-INPUT FILE
+# To be used in flat_paramvar.py
+
+# General details
+> model = flat_mtrumor_radvar
+> file_prefix = test_radvar
+
+# Variable parameters
+> vary_parameters = beta
+
+# General simulation parameters.
+> num_agents = 400
+# > num_steps = 10##  # Not used
+> num_simulations = 3
+
+# Landscape properties.
+> grid_width = 20
+> grid_height = 20
+
+# Agent parameters.
+> step_size = 0.8
+> pj = 0.01  # Probability of a random jump
+# > interaction_radius = 1.0###  # Replaced by a distribution
+> beta = [0.1, 0.5, 0.9]
+> mu = 0.5
+
+# Agent radius of interaction - distribution
+> radius_dist = poisson
+> radius_mean = 1.0
+> interaction_radius = 1.0###  # Replaced by a distribution
+> radius_std = 0.2
+
+# Model details
+> initial_infected = 0.07
+# > transient_fraction = 0.6##  # Not used
